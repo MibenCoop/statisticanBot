@@ -1,0 +1,20 @@
+{
+  "name": "statisticanBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "ngrok": "^3.0.1",
+    "node-fetch": "^2.1.2",
+    "node-telegram-bot-api": "^0.30.0",
+    "request": "^2.85.0"
+  },
+  "proxy": "http://localhost:3000"
+}
